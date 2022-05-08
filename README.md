@@ -1,1 +1,1 @@
-# buy-sell-app
+This is a react-application created by me. This application shows all the items available for rent and sale.Any user can login and update their products for either sale or rent.I'm currently working on ti to imrove it's functionality.It will update code here regularly.Anyone can see this code.One can see the deployed poject by clicking link:https://buy-sell-app.vercel.app/
