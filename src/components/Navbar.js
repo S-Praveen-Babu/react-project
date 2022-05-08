@@ -3,6 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import LocalOfferOutlinedIcon from "@mui/icons-material/LocalOfferOutlined";
 import ExploreOutlinedIcon from "@mui/icons-material/ExploreOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
+import AddCircleOutlineOutlinedIcon from '@mui/icons-material/AddCircleOutlineOutlined';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -49,7 +50,23 @@ const Navbar = () => {
               Offers
             </p>
           </li>
-
+          <li className="navbarListItem" onClick={() => navigate("/create-listing")}>
+            {" "}
+            <AddCircleOutlineOutlinedIcon
+              fill={pathmatch("/create-listing") ? "#2c2c2c" : "#8f8f8f"}
+              width="36px"
+              height="36px"
+            />
+            <p
+              className={
+                pathmatch("/create-listing")
+                  ? "navbarListItemNameActive"
+                  : "navbarListItemName"
+              }
+            >
+              Post Item
+            </p>
+          </li>
           <li className="navbarListItem" onClick={() => navigate("/profile")}>
             {" "}
             <PersonOutlineOutlinedIcon

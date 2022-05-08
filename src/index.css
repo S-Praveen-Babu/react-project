@@ -6,10 +6,18 @@
 html::-webkit-scrollbar {
   display: none;
 }
+/* html {
+  background: url("https://images.unsplash.com/photo-1638132035918-90a22beaab3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80")
+  no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+} */
 
 body {
   font-family: arial;
-  background-color: #f2f4f8;
+  /* background-color: #f2f4f8; */
+  background-color: #f1f2f6;
   margin: 0;
   box-sizing: border-box;
 }
@@ -32,10 +40,10 @@ button {
 .textarea {
   box-shadow: rgba(0, 0, 0, 0.11);
   border: none;
-  background: #ffffff;
+  background: #f1f2f6;
   border-radius: 0.7rem;
   height: 3rem;
-  margin-left:10%;
+  margin-left: 10%;
   width: 80%;
   outline: none;
   font-family: "Montserrat", sans-serif;
@@ -218,7 +226,7 @@ button {
   color: #273c75;
   font-weight: 600;
   text-align: right;
-  margin-right:10%;
+  margin-right: 10%;
 }
 
 .signInBar,
@@ -735,7 +743,7 @@ button {
   padding: 0.8rem 3rem;
   background-color: #ffffff;
   font-weight: 600;
-  border-radius:5px;
+  border-radius: 5px;
   font-size: 1rem;
   margin: 0.5rem 0.5rem 0 0;
   display: flex;
